@@ -1,9 +1,18 @@
 <script>
-	import Sponsors from './Sponsors.svelte';
+	const handleSubmit = (event) => {
+		event.preventDefault();
 
-	import About from './About.svelte';
+		const myForm = event.target;
+		const formData = new FormData(myForm);
 
-	import Navbar from './Navbar.svelte';
+		fetch('/', {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+			body: new URLSearchParams(formData).toString()
+		})
+			.then(() => console.log('Form successfully submitted'))
+			.catch((error) => alert(error));
+	};
 </script>
 
 <section id="contact">
@@ -46,35 +55,31 @@
 							id="main-contact-form"
 							class="contact-form"
 							name="contact-form"
-							method="post"
-							action="sendemail.php"
+							netlify
+							on:submit={handleSubmit}
 						>
+							<!-- method="post" -->
+							<!-- action="sendemail.php" -->
 							<div class="form-group">
-								<input
-									type="text"
-									name="name"
-									class="form-control"
-									required="required"
-									placeholder="Name"
-								/>
+								<input type="text" name="name" class="form-control" placeholder="Name" required />
 							</div>
 							<div class="form-group">
 								<input
 									type="email"
 									name="email"
 									class="form-control"
-									required="required"
 									placeholder="Email ID"
+									required
 								/>
 							</div>
 							<div class="form-group">
 								<textarea
 									name="message"
 									id="message"
-									required="required"
 									class="form-control"
 									rows="4"
 									placeholder="Enter your message"
+									required
 								></textarea>
 							</div>
 							<div class="form-group">
