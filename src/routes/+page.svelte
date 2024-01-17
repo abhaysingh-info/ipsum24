@@ -69,6 +69,6 @@
 <Countdown></Countdown>
 <EventsCarousel></EventsCarousel>
 <About></About>
-<Sponsors></Sponsors>
+<!-- <Sponsors></Sponsors> -->
 <Contact></Contact>
 <Footer></Footer>

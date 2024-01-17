@@ -3,65 +3,66 @@
 		[
 			{
 				name: 'Business Blueprint Bash',
-				poster: '/events/Business Blueprint Bash.jpg',
-				posterLowRes: '/events/Business Blueprint Bash-lowres.jpg',
-				date: '20th March 2021'
+				poster: '/events/1.png',
+				posterLowRes: '/events/1.png',
+				date: '2nd Feburary 2024',
+				link: 'https://forms.gle/9Z9Z1Z9Z9Z9Z9Z9Z9'
 			},
 			{
 				name: 'Clash of Minds: Business Edition',
-				poster: '/events/Clash of Minds: Business Edition.jpg',
-				posterLowRes: '/events/Clash of Minds: Business Edition-lowres.jpg',
-				date: '20th March 2021'
+				poster: '/events/2.png',
+				posterLowRes: '/events/2-lowres.png',
+				date: '2nd Feburary 2024'
 			},
 			{
 				name: 'Trade Trivia Tournament - Paper Trading',
-				poster: '/events/Trade Trivia Tournament - Paper Trading.jpg',
-				posterLowRes: '/events/Trade Trivia Tournament - Paper Trading-lowres.jpg',
-				date: '20th March 2021'
-			},
-			{
-				name: 'Market Mingle',
-				poster: '/events/Market Mingle.jpg',
-				posterLowRes: '/events/Market Mingle-lowres.jpg',
-				date: '20th March 2021'
+				poster: '/events/7.png',
+				posterLowRes: '/events/7.png',
+				date: '2nd Feburary 2024'
 			},
 			{
 				name: 'BizQuiz Bonanza',
-				poster: '/events/BizQuiz Bonanza.jpg',
-				posterLowRes: '/events/BizQuiz Bonanza-lowres.jpg',
-				date: '20th March 2021'
+				poster: '/events/10.png',
+				posterLowRes: '/events/10.png',
+				date: '2nd Feburary 2024'
+			},
+			{
+				name: 'Market Mingle',
+				poster: '/events/6.png',
+				posterLowRes: '/events/6.png',
+				date: '2nd & 3rd Feburary 2024'
 			}
 		],
 		[
 			{
 				name: '1-min Speech',
-				poster: 'images/event/event1.jpg',
-				posterLowRes: 'images/event/event1.jpg',
-				date: '20th March 2021'
+				poster: '/events/4.png',
+				posterLowRes: '/events/4.png',
+				date: '3rd Feburary 2024'
 			},
 			{
 				name: '1-Min Games',
-				poster: 'images/event/event1.jpg',
-				posterLowRes: 'images/event/event1.jpg',
-				date: '20th March 2021'
+				poster: '/events/5.png',
+				posterLowRes: '/events/5.png',
+				date: '3rd Feburary 2024'
 			},
 			{
 				name: 'Biz Hunt',
-				posterLowRes: 'images/event/event1.jpg',
-				poster: 'images/event/event1.jpg',
-				date: '20th March 2021'
+				posterLowRes: '/events/3.png',
+				poster: '/events/3.png',
+				date: '3rd Feburary 2024'
 			},
 			{
 				name: 'PublicityPulse: The PR Event',
-				poster: 'images/event/event1.jpg',
-				posterLowRes: 'images/event/event1.jpg',
-				date: '20th March 2021'
+				poster: '/events/8.png',
+				posterLowRes: '/events/8.png',
+				date: '3rd Feburary 2024'
 			},
 			{
 				name: 'Design Dual(logo/ tagline/ brand ad)',
-				poster: 'images/event/event1.jpg',
-				posterLowRes: 'images/event/event1.jpg',
-				date: '20th March 2021'
+				poster: '/events/9.png',
+				posterLowRes: '/events/9.png',
+				date: '3rd Feburary 2024'
 			}
 		]
 	];
@@ -96,6 +97,16 @@
 							</div>
 						{/each}
 					</div>
+					<!-- <button> -->
+					<div class="crausel-btn-group">
+						<a class="btn btn-info" href="#event-carousel" data-slide="prev"
+							><i class="fa fa-angle-left"></i></a
+						>
+						<a class="btn btn-info" href="#event-carousel" data-slide="next"
+							><i class="fa fa-angle-right"></i></a
+						>
+					</div>
+					<!-- </button> -->
 				</div>
 			</div>
 			<div class="guitar">
@@ -104,3 +115,14 @@
 		</div>
 	</div>
 </section>
+
+<style>
+	.crausel-btn-group {
+		display: flex;
+		/* justify-content: space-around; */
+		gap: 1rem;
+		justify-content: center;
+		max-width: 100%;
+		margin: 2rem 0;
+	}
+</style>
