@@ -113,5 +113,6 @@
 	.d-flex {
 		display: flex !important;
 		gap: 1rem;
+		flex-wrap: wrap;
 	}
 </style>
