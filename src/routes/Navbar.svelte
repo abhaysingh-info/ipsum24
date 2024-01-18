@@ -1,14 +1,7 @@
 <header id="header" role="banner">
 	<div class="main-nav">
 		<div class="container">
-			<div class="header-top">
-				<div class="pull-right social-icons">
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-google-plus"></i></a>
-					<a href="#"><i class="fa fa-youtube"></i></a>
-				</div>
-			</div>
+			<div class="header-top"></div>
 			<div class="row">
 				<div class="navbar-header">
 					<button
@@ -34,7 +27,7 @@
 						<li class="scroll"><a href="#event">Event</a></li>
 						<li class="scroll"><a href="#about">About</a></li>
 						<li>
-							<a class="no-scroll" href="#registerNow">Register Now</a>
+							<a class="no-scroll" href="https://linktr.ee/mitipsum">Register Now</a>
 						</li>
 						<li class="scroll"><a href="#contact">Contact Us</a></li>
 						<li class="scroll"><a href="#contact">Sponsors</a></li>

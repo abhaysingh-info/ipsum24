@@ -18,7 +18,9 @@
 				<div class="carousel-caption">
 					<h2>{eventRegistrationText}</h2>
 					<h4>{partiticapteEventSubText}</h4>
-					<a href="#registerNow">GRAB YOUR TICKETS <i class="fa fa-angle-right"></i></a>
+					<a href="https://linktr.ee/mitipsum"
+						>GRAB YOUR TICKETS <i class="fa fa-angle-right"></i></a
+					>
 				</div>
 			</div>
 			<div class="item">
@@ -27,7 +29,9 @@
 				<div class="carousel-caption">
 					<h2>{eventRegistrationText}</h2>
 					<h4>{partiticapteEventSubText}</h4>
-					<a href="#registerNow">GRAB YOUR TICKETS <i class="fa fa-angle-right"></i></a>
+					<a href="https://linktr.ee/mitipsum"
+						>GRAB YOUR TICKETS <i class="fa fa-angle-right"></i></a
+					>
 				</div>
 			</div>
 			<div class="item">
@@ -36,7 +40,9 @@
 				<div class="carousel-caption">
 					<h2>{eventRegistrationText}</h2>
 					<h4>{partiticapteEventSubText}</h4>
-					<a href="#registerNow">GRAB YOUR TICKETS <i class="fa fa-angle-right"></i></a>
+					<a href="https://linktr.ee/mitipsum"
+						>GRAB YOUR TICKETS <i class="fa fa-angle-right"></i></a
+					>
 				</div>
 			</div>
 		</div>

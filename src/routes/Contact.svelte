@@ -22,32 +22,46 @@
 				</div>
 			</div> -->
 	<!--/#map-->
+
+	<!--/#map-->
+
 	<div class="contact-section">
 		<div class="ear-piece">
 			<img class="img-responsive" src="images/ear-piece.png" alt="" />
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-3 col-sm-offset-4">
-					<div class="contact-text">
-						<h3>Contact</h3>
-						<address>
-							E-mail: promo@party.com<br />
-							Phone: +1 (123) 456 7890<br />
-							Fax: +1 (123) 456 7891
-						</address>
-					</div>
-					<div class="contact-address">
-						<h3>Contact</h3>
-						<address>
-							Unit C2, St.Vincent's Trading Est.,<br />
-							Feeder Road,<br />
-							Bristol, BS2 0UY<br />
-							United Kingdom
-						</address>
+				<div class=" col-sm-offset-5">
+					<div class="d-flex">
+						<div class="contact-text">
+							<h3>Faculty Co-ordinator</h3>
+							<address>
+								Name: Dr. S.S. Patil<br />
+								E-mail: sspatil@mitacsc.ac.in<br />
+								Phone: +91 8329896244<br />
+							</address>
+						</div>
+						<div class="contact-text">
+							<h3>Student Coordinator</h3>
+							<address>
+								Name: Sania Inamdar<br />
+								E-mail: saniainamdar9494@gmail.com<br />
+								Phone: +91 8010761591<br />
+							</address>
+						</div>
+						<div class="contact-address">
+							<h3>Address</h3>
+							<address>
+								MIT Arts Commerce and Science College,<br />
+								Moshi - Alandi Rd,<br />
+								opposite Gajanan Maharaj<br />
+								Sansthan, Alandi, Pune,<br />
+								Maharashtra 412105
+							</address>
+						</div>
 					</div>
 				</div>
-				<div class="col-sm-5">
+				<!-- <div class="col-sm-5">
 					<div id="contact-section">
 						<h3>Send a message</h3>
 						<div class="status alert alert-success" style="display: none"></div>
@@ -58,8 +72,6 @@
 							netlify
 							on:submit={handleSubmit}
 						>
-							<!-- method="post" -->
-							<!-- action="sendemail.php" -->
 							<div class="form-group">
 								<input type="text" name="name" class="form-control" placeholder="Name" required />
 							</div>
@@ -87,8 +99,18 @@
 							</div>
 						</form>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
 </section>
+
+<style>
+	.contact-section {
+		overflow: hidden;
+	}
+
+	.d-flex {
+		display: flex !important;
+	}
+</style>
