@@ -110,9 +110,10 @@
 		overflow: hidden;
 	}
 
-	.d-flex {
-		display: flex !important;
-		gap: 1rem;
-		flex-wrap: wrap;
+	@media only screen and (min-width: 1080px) {
+		.d-flex {
+			display: flex !important;
+			gap: 1rem;
+		}
 	}
 </style>
