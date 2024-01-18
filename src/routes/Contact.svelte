@@ -31,8 +31,16 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class=" col-sm-offset-5">
+				<div class=" col-sm-offset-2">
 					<div class="d-flex">
+						<div class="contact-text">
+							<h3>HOD BBA</h3>
+							<address>
+								Name: Dr. S.S. Patil<br />
+								E-mail: sspatil@mitacsc.ac.in<br />
+								Phone: +91 8329896244<br />
+							</address>
+						</div>
 						<div class="contact-text">
 							<h3>Faculty Co-ordinator</h3>
 							<address>
@@ -115,5 +123,10 @@
 			display: flex !important;
 			gap: 1rem;
 		}
+	}
+
+	.contact-text,
+	.contact-address {
+		width: 100%;
 	}
 </style>
