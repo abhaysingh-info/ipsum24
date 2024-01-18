@@ -112,5 +112,6 @@
 
 	.d-flex {
 		display: flex !important;
+		gap: 1rem;
 	}
 </style>
