@@ -36,9 +36,9 @@
 						<div class="contact-text">
 							<h3>HOD BBA</h3>
 							<address>
-								Name: Dr. S.S. Patil<br />
-								E-mail: sspatil@mitacsc.ac.in<br />
-								Phone: +91 8329896244<br />
+								Name: Dr. Mangesh Bhopale<br />
+								E-mail: hodbba@mitacsc.ac.in<br />
+								Phone: +91 9011870589<br />
 							</address>
 						</div>
 						<div class="contact-text">
